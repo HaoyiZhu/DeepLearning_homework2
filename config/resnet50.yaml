@@ -1,0 +1,37 @@
+MODEL:
+  TYPE: 'resnet50'
+  PRETRAINED: ''
+  TRY_LOAD: '' #exp/reduce_ssp-resnet50.yaml/ssp_final'
+LOSS:
+  TYPE: 'CrossEntropy'
+  EPSILON: 0.1
+TRAIN:
+  BATCH_SIZE: 200
+  BEGIN_EPOCH: 0
+  END_EPOCH: 40
+  OPTIMIZER: 'adam'
+  LR: 0.001
+  # LR_SCHEDULER:
+  #   TYPE: 'multistep'
+  #   LR_FACTOR: 0.1
+  #   LR_STEP:
+  #     - 90
+  #     - 120
+  LR_SCHEDULER:
+    TYPE: 'cosineannealing'
+    T_MAX: 100
+SSP:
+  BATCH_SIZE: 200
+  BEGIN_EPOCH: 0
+  END_EPOCH: 40
+  OPTIMIZER: 'adam'
+  LR: 0.001
+  # LR_SCHEDULER:
+  #   TYPE: 'multistep'
+  #   LR_FACTOR: 0.1
+  #   LR_STEP:
+  #     - 90
+  #     - 120
+  LR_SCHEDULER:
+    TYPE: 'cosineannealing'
+    T_MAX: 100

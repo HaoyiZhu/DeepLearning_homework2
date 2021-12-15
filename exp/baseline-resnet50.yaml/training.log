@@ -1,0 +1,130 @@
+******************************
+Namespace(cfg='config/resnet50.yaml', device='gpu:0', exp_id='default', nThreads=80, snapshot=1, sync=True, work_dir='./exp/default-resnet50.yaml/')
+******************************
+{'MODEL': {'TYPE': 'resnet50', 'PRETRAINED': '', 'TRY_LOAD': ''}, 'LOSS': {'TYPE': 'CrossEntropy'}, 'TRAIN': {'BATCH_SIZE': 400, 'BEGIN_EPOCH': 0, 'END_EPOCH': 100, 'OPTIMIZER': 'adam', 'LR': 0.001, 'LR_SCHEDULER': {'TYPE': 'cosineannealing', 'T_MAX': 100}}, 'FILE_NAME': 'resnet50.yaml'}
+******************************
+******************************
+Namespace(cfg='config/resnet50.yaml', device='gpu:0', exp_id='default', nThreads=80, snapshot=1, sync=True, work_dir='./exp/default-resnet50.yaml/')
+******************************
+{'MODEL': {'TYPE': 'resnet50', 'PRETRAINED': '', 'TRY_LOAD': ''}, 'LOSS': {'TYPE': 'CrossEntropy'}, 'TRAIN': {'BATCH_SIZE': 400, 'BEGIN_EPOCH': 0, 'END_EPOCH': 100, 'OPTIMIZER': 'adam', 'LR': 0.001, 'LR_SCHEDULER': {'TYPE': 'cosineannealing', 'T_MAX': 100}}, 'FILE_NAME': 'resnet50.yaml'}
+******************************
+############# Starting Epoch 0 | LR: 0.001 #############
+Train-0 epoch | loss:0.24788388 | acc:0.9283
+##### Epoch 0 | test_acc: 0.9765 #####
+############# Starting Epoch 1 | LR: 0.0009997532801828658 #############
+Train-1 epoch | loss:0.03366975 | acc:0.9898
+##### Epoch 1 | test_acc: 0.985 #####
+############# Starting Epoch 2 | LR: 0.0009990133642141358 #############
+Train-2 epoch | loss:0.02288928 | acc:0.9928
+##### Epoch 2 | test_acc: 0.9775 #####
+############# Starting Epoch 3 | LR: 0.00099778098230154 #############
+Train-3 epoch | loss:0.02176050 | acc:0.9931
+##### Epoch 3 | test_acc: 0.9849 #####
+############# Starting Epoch 4 | LR: 0.000996057350657239 #############
+Train-4 epoch | loss:0.01891337 | acc:0.9943
+##### Epoch 4 | test_acc: 0.9895 #####
+############# Starting Epoch 5 | LR: 0.0009938441702975688 #############
+Train-5 epoch | loss:0.01524728 | acc:0.9952
+##### Epoch 5 | test_acc: 0.9858 #####
+############# Starting Epoch 6 | LR: 0.0009911436253643444 #############
+Train-6 epoch | loss:0.01169464 | acc:0.9962
+##### Epoch 6 | test_acc: 0.9913 #####
+############# Starting Epoch 7 | LR: 0.0009879583809693736 #############
+Train-7 epoch | loss:0.00962612 | acc:0.9971
+##### Epoch 7 | test_acc: 0.9893 #####
+############# Starting Epoch 8 | LR: 0.0009842915805643154 #############
+Train-8 epoch | loss:0.01282035 | acc:0.9954
+##### Epoch 8 | test_acc: 0.9918 #####
+############# Starting Epoch 9 | LR: 0.0009801468428384714 #############
+Train-9 epoch | loss:0.01087143 | acc:0.9963
+##### Epoch 9 | test_acc: 0.9928 #####
+############# Starting Epoch 10 | LR: 0.0009755282581475767 #############
+Train-10 epoch | loss:0.01194947 | acc:0.9961
+##### Epoch 10 | test_acc: 0.9878 #####
+############# Starting Epoch 11 | LR: 0.0009704403844771127 #############
+Train-11 epoch | loss:0.01016912 | acc:0.9970
+##### Epoch 11 | test_acc: 0.9922 #####
+############# Starting Epoch 12 | LR: 0.0009648882429441257 #############
+Train-12 epoch | loss:0.00713805 | acc:0.9976
+##### Epoch 12 | test_acc: 0.9885 #####
+############# Starting Epoch 13 | LR: 0.0009588773128419905 #############
+Train-13 epoch | loss:0.00928645 | acc:0.9969
+##### Epoch 13 | test_acc: 0.9917 #####
+############# Starting Epoch 14 | LR: 0.0009524135262330098 #############
+Train-14 epoch | loss:0.01642028 | acc:0.9956
+##### Epoch 14 | test_acc: 0.9885 #####
+############# Starting Epoch 15 | LR: 0.0009455032620941839 #############
+Train-15 epoch | loss:0.00511541 | acc:0.9982
+##### Epoch 15 | test_acc: 0.987 #####
+############# Starting Epoch 16 | LR: 0.0009381533400219318 #############
+Train-16 epoch | loss:0.00813813 | acc:0.9973
+##### Epoch 16 | test_acc: 0.9866 #####
+############# Starting Epoch 17 | LR: 0.0009303710135019719 #############
+Train-17 epoch | loss:0.00946150 | acc:0.9972
+##### Epoch 17 | test_acc: 0.9921 #####
+############# Starting Epoch 18 | LR: 0.0009221639627510076 #############
+Train-18 epoch | loss:0.00639597 | acc:0.9979
+##### Epoch 18 | test_acc: 0.9905 #####
+############# Starting Epoch 19 | LR: 0.000913540287137281 #############
+Train-19 epoch | loss:0.00563164 | acc:0.9980
+##### Epoch 19 | test_acc: 0.9841 #####
+############# Starting Epoch 20 | LR: 0.0009045084971874739 #############
+Train-20 epoch | loss:0.00881093 | acc:0.9973
+##### Epoch 20 | test_acc: 0.9912 #####
+############# Starting Epoch 21 | LR: 0.0008950775061878452 #############
+Train-21 epoch | loss:0.00875865 | acc:0.9973
+##### Epoch 21 | test_acc: 0.9909 #####
+############# Starting Epoch 22 | LR: 0.0008852566213878947 #############
+Train-22 epoch | loss:0.00760088 | acc:0.9977
+##### Epoch 22 | test_acc: 0.9921 #####
+############# Starting Epoch 23 | LR: 0.0008750555348152298 #############
+Train-23 epoch | loss:0.00702701 | acc:0.9975
+##### Epoch 23 | test_acc: 0.9874 #####
+############# Starting Epoch 24 | LR: 0.0008644843137107057 #############
+Train-24 epoch | loss:0.00883553 | acc:0.9972
+##### Epoch 24 | test_acc: 0.9884 #####
+############# Starting Epoch 25 | LR: 0.0008535533905932737 #############
+Train-25 epoch | loss:0.00770946 | acc:0.9976
+##### Epoch 25 | test_acc: 0.9893 #####
+############# Starting Epoch 26 | LR: 0.0008422735529643444 #############
+Train-26 epoch | loss:0.00593791 | acc:0.9982
+##### Epoch 26 | test_acc: 0.9938 #####
+############# Starting Epoch 27 | LR: 0.0008306559326618259 #############
+Train-27 epoch | loss:0.00500962 | acc:0.9985
+##### Epoch 27 | test_acc: 0.992 #####
+############# Starting Epoch 28 | LR: 0.0008187119948743449 #############
+Train-28 epoch | loss:0.00610567 | acc:0.9982
+##### Epoch 28 | test_acc: 0.9917 #####
+############# Starting Epoch 29 | LR: 0.0008064535268264883 #############
+Train-29 epoch | loss:0.00543219 | acc:0.9983
+##### Epoch 29 | test_acc: 0.9932 #####
+############# Starting Epoch 30 | LR: 0.0007938926261462367 #############
+Train-30 epoch | loss:0.00449819 | acc:0.9986
+##### Epoch 30 | test_acc: 0.9925 #####
+############# Starting Epoch 31 | LR: 0.0007810416889260654 #############
+Train-31 epoch | loss:0.00679794 | acc:0.9979
+##### Epoch 31 | test_acc: 0.9933 #####
+############# Starting Epoch 32 | LR: 0.0007679133974894983 #############
+Train-32 epoch | loss:0.00316541 | acc:0.9991
+##### Epoch 32 | test_acc: 0.9942 #####
+############# Starting Epoch 33 | LR: 0.0007545207078751857 #############
+Train-33 epoch | loss:0.00377308 | acc:0.9988
+##### Epoch 33 | test_acc: 0.9884 #####
+############# Starting Epoch 34 | LR: 0.0007408768370508577 #############
+Train-34 epoch | loss:0.00659061 | acc:0.9980
+##### Epoch 34 | test_acc: 0.9932 #####
+############# Starting Epoch 35 | LR: 0.0007269952498697734 #############
+Train-35 epoch | loss:0.00345271 | acc:0.9990
+##### Epoch 35 | test_acc: 0.9927 #####
+############# Starting Epoch 36 | LR: 0.0007128896457825364 #############
+Train-36 epoch | loss:0.00329955 | acc:0.9991
+##### Epoch 36 | test_acc: 0.9925 #####
+############# Starting Epoch 37 | LR: 0.0006985739453173903 #############
+Train-37 epoch | loss:0.00110818 | acc:0.9997
+##### Epoch 37 | test_acc: 0.9945 #####
+############# Starting Epoch 38 | LR: 0.0006840622763423391 #############
+Train-38 epoch | loss:0.00021947 | acc:0.9999
+##### Epoch 38 | test_acc: 0.9948 #####
+############# Starting Epoch 39 | LR: 0.0006693689601226458 #############
+Train-39 epoch | loss:0.00255094 | acc:0.9991
+##### Epoch 39 | test_acc: 0.9937 #####

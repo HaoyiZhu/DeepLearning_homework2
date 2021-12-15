@@ -1,0 +1,5 @@
+python>=3.8
+paddle==2.2.1
+pyyaml
+easydict
+tqdm
